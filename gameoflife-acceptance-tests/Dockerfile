@@ -5,7 +5,6 @@ ENV DISPLAY :99
 
 USER root
 
-
 RUN apt-get update -qqy \
   && apt-get install -y openjdk-8-jdk && \
   rm -rf /var/lib/apt/lists/*
